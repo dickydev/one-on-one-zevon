@@ -1,0 +1,207 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Hanken Grotesk", sans-serif;
+  background-color: #165648;
+  color: white;
+}
+
+/* HERO DAN HEADER SECTION */
+
+section {
+  width: 100%;
+  height: auto;
+}
+
+section.hero-section {
+  width: 100%;
+  height: 100dvh;
+  background-size: cover;
+  background-image: url("./assets/background.png");
+}
+
+section.hero-section header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;
+}
+
+section.hero-section header nav ul {
+  display: flex;
+}
+
+section.hero-section header nav ul li {
+  margin-right: 47px;
+  list-style: none;
+}
+
+section.hero-section header nav ul li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+section.hero-section .hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 70px;
+  width: 100%;
+}
+
+section.hero-section .hero h1 {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+section.hero-section .hero p {
+  margin-top: -20px;
+}
+
+section.hero-section .tombol {
+  display: flex;
+  flex-direction: row;
+}
+
+section.hero-section .tombol button {
+  width: 170px;
+  height: 42px;
+  margin-top: 10px;
+  border-radius: 11px;
+  background-color: white;
+  border: none;
+  margin: 10px;
+}
+
+section.hero-section .tombol button.outlined {
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  transition: ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+section.hero-section .tombol button.outlined:hover {
+  background-color: white;
+  color: black;
+  transition: ease-in-out 0.3s;
+}
+
+section.hero-section .tombol button.filled {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+section.hero-section button.filled img {
+  margin-right: 4px;
+}
+
+/* KONTEN SECTION */
+main {
+  margin-top: -20px;
+  color: black;
+  background-color: white;
+  height: 200dvh;
+  width: 100%;
+}
+
+main section.content-feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
+main section.content-feature div.header-feature {
+  margin-top: 147px;
+}
+
+main section.content-feature div.header-feature p {
+  color: #165648;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+main section.content-feature div.header-feature h1 {
+  font-size: 50px;
+  margin-top: -20px;
+}
+
+main section.content-feature div.icon-feature {
+  display: flex;
+  width: 700px;
+}
+
+main section.content-feature div.icon-feature div.icon {
+  margin: 20px;
+}
+
+main section.content-feature div.icon-feature div.icon p {
+  font-size: 12px;
+}
+
+main section.content-feature div.icon-feature div.icon img {
+  height: 100px;
+  width: 100px;
+}
+
+footer {
+  width: 100%;
+  height: 70dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+footer > p {
+  text-align: center;
+  margin-top: 100px;
+}
+
+footer div.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+footer div.footer-container div.footer-content.deskripsi {
+  /* margin: 80px; */
+  width: 600px;
+}
+
+footer div.footer-container div.footer-content.navigasi {
+  /* margin: 80px; */
+  width: 100px;
+}
+
+footer div.footer-container div.footer-content div.sosmed img {
+  background-color: #f5f6f8;
+  width: 27px;
+  height: 27px;
+  border-radius: 16.86px;
+  padding: 10px;
+}
+
+footer div.footer-container div.footer-content p.heading {
+  font-weight: 900;
+  font-size: 16px;
+}
+
+footer div.footer-container div.footer-content p a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 14px;
+}
